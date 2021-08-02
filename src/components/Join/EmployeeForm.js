@@ -113,8 +113,8 @@ export default function EmployeeForm(props) {
             error={errors.departmentId}
           />
           <Controls.DatePicker
-            name="hireDate"
-            label="Hire Date"
+            name="dateOfBirth"
+            label="Date of Birth"
             value={values.hireDate}
             onChange={handleInputChange}
           />

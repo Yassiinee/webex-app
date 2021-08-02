@@ -6,7 +6,7 @@ function Header(){
   return (
     <>
     <Navbar>
-      <Logo to="/">Yassine Zakhama</Logo>
+      <Logo to="/">{`${process.env.REACT_APP_NAME}`}</Logo>
       <NavItems>
         <Container>
         <NavbarLink to="/">Home</NavbarLink>
