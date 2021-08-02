@@ -2,9 +2,11 @@ import "./assets/App.css";
 import { Switch, Route, useLocation, Redirect } from "react-router-dom";
 import Home from "./screens/Home";
 import About from "./screens/About";
+import Erreur from "./screens/Erreur";
+import Test from "./screens/Test";
 import Services from "./screens/Services";
 import { AnimatePresence } from "framer-motion";
-import GlobalStyle from "./globalStyles";
+import GlobalStyle from "./assets/globalStyles";
 import styled from "styled-components";
 
 const Section = styled.section`
@@ -22,7 +24,9 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
-          <Redirect to="/services" />
+          <Route path="/test" component={Test} />
+          <Route path="/err" component={Erreur} />
+          <Redirect to="/err" />
         </Switch>
       </AnimatePresence>
     </Section>

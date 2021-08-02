@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
 import Image from "../assets/images/slido-hero.jpg";
 import { motion } from "framer-motion";
@@ -18,8 +18,9 @@ const Services = () => {
         image={Image}
         title="Managing it all in one place"
         desc="The future of work is hybrid."
+        more="The world becomes your workplace when all of
+        your work is all in one app."
       />
-      Services
     </motion.div>
   );
 };
