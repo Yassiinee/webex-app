@@ -12,23 +12,10 @@ code {
     monospace;
 }
 
-.Space {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
+.App {
+  text-align: center;
 }
-.Space2 {
-  background-color: 282c34;
-  position: fixed;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

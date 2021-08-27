@@ -12,7 +12,7 @@ function Header(){
         <NavbarLink to="/">Home</NavbarLink>
         <NavbarLink to="/about">About</NavbarLink>
         <NavbarLink to="/services">Services</NavbarLink>
-        <NavbarLink to="/test">Test</NavbarLink>
+        <NavbarLink to="/space">Space</NavbarLink>
         </Container>
       </NavItems>
         <Join/>
